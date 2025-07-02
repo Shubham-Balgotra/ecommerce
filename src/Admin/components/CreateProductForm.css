@@ -1,0 +1,62 @@
+.createProductContainer {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+ 
+  
+  .createProductContainer h4 {
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .MuiTextField-root,
+  .MuiFormControl-root {
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .MuiInputLabel-root {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .MuiOutlinedInput-root {
+    border-radius: 8px;
+  }
+  
+  .MuiButton-contained {
+    background-color: #1976d2;
+    border-radius: 10px;
+    text-transform: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #1259a5;
+  }
+  
+  @media (max-width: 600px) {
+    .createProductContainer {
+      padding: 20px;
+    }
+  
+    .MuiButton-contained {
+      width: 100%;
+      
+    }
+  }
+  
